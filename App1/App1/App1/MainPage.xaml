@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App1.MainPage">
+
+    <ContentPage Title="Home" IconImageSource="home.png">
+        <ContentPage.Content>
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                <Label Text="Welcome !" FontSize="Title" VerticalOptions="Center" HorizontalOptions="Center" />
+                <BoxView VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="1" WidthRequest="50" Color="#5b5d68"></BoxView>
+                <Label x:Name="EnterIP" Text="Enter the PS4 IP Address :"  FontSize="Default" VerticalOptions="Start" HorizontalOptions="Center"/>
+                <Entry x:Name="PS4IP" Text="192.168.1.65" />
+                <Button Text="Connect the PS4" Clicked="Button_Clicked"/>
+                <Button Text="Attach the Process" Clicked="Button_Clicked_1"/>
+                <BoxView VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="1" WidthRequest="50" Color="#5b5d68"></BoxView>
+                <Button Text="Disconnect the console"  Clicked="Button_Clicked_2"/>
+                <BoxView VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="1" WidthRequest="50" Color="#5b5d68"></BoxView>
+                <Label x:Name="ConnectLabel" Text="Connected ?"  FontSize="Default" VerticalOptions="Start" HorizontalOptions="Center"/>
+                <Label x:Name="AttachLabel" Text="Process ? "  FontSize="Default" VerticalOptions="Start" HorizontalOptions="Center"/>
+                <BoxView VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="1" WidthRequest="50" Color="#5b5d68"></BoxView>
+                <Button Text="Get the clients name" Clicked="Button_Clicked_3"/>
+                <BoxView VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="1" WidthRequest="200" Color="#5b5d68"></BoxView>
+                <Entry x:Name="client0" Text="Client 0" Placeholder=""/>
+                <Entry x:Name="client1" Text="Client 1" Placeholder=""/>
+                <Entry x:Name="client2" Text="Client 2" Placeholder=""/>
+                <Entry x:Name="client3" Text="Client 3" Placeholder=""/>
+                <BoxView VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="1" WidthRequest="50" Color="#5b5d68"></BoxView>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage Title="Client 0" IconImageSource="users.png">
+        <ContentPage.Content>
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                <Label x:Name="client0label" Text="Client 0 :"  FontSize="Default" VerticalOptions="Start" HorizontalOptions="Center"/>
+                <BoxView VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="1" WidthRequest="50" Color="#5b5d68"></BoxView>
+                <Button Text="Send God Mode" Clicked="Button_Clicked_4"/>
+                <Button Text="Give Unlimited Ammo" Clicked="Button_Clicked_5"/>
+                <Button Text="Give Max Points" Clicked="Button_Clicked_6"/>
+                <Button Text="Hide HUD" Clicked="Button_Clicked_7"/>
+                <Button Text="Freeze" Clicked="Button_Clicked_8"/>
+                <Entry x:Name="weaponsclients0" Text="1"/>
+                <Button Text="Give weapon" Clicked="Button_Clicked_9"/>
+                <BoxView VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="1" WidthRequest="50" Color="#5b5d68"></BoxView>
+                <Entry x:Name="nameclient0" Text="^2MrNiato"/>
+                <Button Text="Change name" Clicked="Button_Clicked_10"/>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage Title="Client 1" IconImageSource="users.png">
+        <ContentPage.Content>
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                <Label x:Name="client1label" Text="Client 1 :"  FontSize="Default" VerticalOptions="Start" HorizontalOptions="Center"/>
+                <BoxView VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="1" WidthRequest="50" Color="#5b5d68"></BoxView>
+                <Button Text="Send God Mode" Clicked="Button_Clicked_11"/>
+                <Button Text="Give Unlimited Ammo" Clicked="Button_Clicked_12"/>
+                <Button Text="Give Max Points" Clicked="Button_Clicked_13"/>
+                <Button Text="Hide HUD" Clicked="Button_Clicked_14"/>
+                <Button Text="Freeze" Clicked="Button_Clicked_15"/>
+                <Entry x:Name="weaponsclients1" Text="1"/>
+                <Button Text="Give weapon" Clicked="Button_Clicked_16"/>
+                <BoxView VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="1" WidthRequest="50" Color="#5b5d68"></BoxView>
+                <Entry x:Name="nameclient1" Text="^4MrNiato"/>
+                <Button Text="Change name" Clicked="Button_Clicked_17"/>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+</TabbedPage>

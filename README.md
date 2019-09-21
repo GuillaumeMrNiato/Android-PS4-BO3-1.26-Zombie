@@ -1,10 +1,11 @@
 # Android-PS4-BO3-1.00-APK
 
-This an APK to mod BO3 1.00 Zombie on PS4. You will need to inject the RTE payload by yourself before connecting the Playstation 4.
+This an APK to mod BO3 1.26 Zombie on PS4. You will need to inject the RTE payload by yourself before connecting the Playstation 4.
 
-Current version of the APK : 1.00
+Current version of the APK : 1.1 (Source is not release, in this repository, only the 1.00 source is available)
 
-Video : https://www.youtube.com/watch?v=IhfPK-JmrLM
+Video (1.1) : https://www.youtube.com/watch?v=yWBoGfw89H4
+Video (1.00) : https://www.youtube.com/watch?v=IhfPK-JmrLM
 
 Follow me : 
 ➡️➡️ Follow me on Twitter : https://twitter.com/ImMrNiato ⬅️⬅️
